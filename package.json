@@ -1,0 +1,19 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress run --headed --browser=chrome"
+  },
+  "author": "Deep",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.10.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
